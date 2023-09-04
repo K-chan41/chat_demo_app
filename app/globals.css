@@ -25,3 +25,31 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  ) rgb(var(--background-start-rgb));
+}
+
+/* ボタンに対するカスタムスタイル */
+button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
