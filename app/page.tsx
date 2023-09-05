@@ -7,7 +7,7 @@ export default function Chat() {
 
   return (
     <div className="mx-auto w-full max-w-md py-24">
-      <h1 class="text-2xl font-bold text-fuchsia-500">パワハラ上司シミュレーション</h1>
+      <h1 className="text-2xl font-bold text-fuchsia-500">パワハラ上司シミュレーション</h1>
       <div className="bg-white rounded-lg shadow-xl p-6">
         {messages.map((m, index) => (
             <div
