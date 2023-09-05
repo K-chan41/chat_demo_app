@@ -22,10 +22,10 @@ export default function Chat() {
           ))}
 
         <form onSubmit={handleSubmit}>
-          <label>
+          <label className="text-slate-600">
             なんだ? 言いたいことがあるなら言ってみろよ! ...
             <input
-              className="w-full border border-gray-300 rounded mb-2 p-2"
+              className="w-full border border-gray-300 rounded mb-2 p-2 text-slate-600"
               value={input}
               onChange={handleInputChange}
             />
