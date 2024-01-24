@@ -7,10 +7,6 @@ import { PromptTemplate } from 'langchain/prompts';
 
 export const runtime = 'edge';
 
-/**
- * Basic memory formatter that stringifies and passes
- * message history directly into the model.
- */
 const formatMessage = (message: VercelChatMessage) => {
   return `${message.role}: ${message.content}`;
 };
